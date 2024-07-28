@@ -1,17 +1,17 @@
 {
-  "name": "@rezact/create-app",
+  "name": "create-rezact",
   "version": "1.1.2",
   "type": "module",
-  "description": "Quickly Scaffold a Rezact App",
+  "description": "CLI to Quickly Scaffold a Rezact App",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && tsc && cp -rf ./templates ./dist && cp ./README.md ./dist"
   },
   "bin": {
-    "create-rezact-app": "index.js"
+    "create-rezact": "index.js"
   },
   "keywords": [],
-  "author": "Sambassey Nengimote",
+  "author": "Rayyan Nafees",
   "license": "MIT",
   "devDependencies": {
     "@types/fs-extra": "^11.0.2",
