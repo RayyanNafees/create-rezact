@@ -1,9 +1,7 @@
 name: Publish to npm
 
-on:
-  push:
-    tags:
-      - 'v*' # This will run the workflow when you push a new tag that starts with 'v'
+on: 
+  push
 
 jobs:
   build:
